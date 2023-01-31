@@ -8,8 +8,14 @@
 public class Exercise4 {
     public static void main(String[] args) {
         // Scanner input
+        Scanner input = new Scanner(System.in);
         // Exercise 4 Object
+        Exercise4 ex4 = new Exercise4();
+
         // 1st input integer
+        System.out.println("Enter 1st integer: ");
+        int num1 = input.nextInt();
+
         // 2nd input integer
         // 3rd input integer
         // Print sum
