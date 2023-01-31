@@ -12,20 +12,29 @@
 import java.util.Scanner;
 
 public class CarlysEventPrice {
-    // Scanner input object
-    Scanner input = new Scanner(System.in);
-    // CarlysEventPrice object
-    CarlysEventPrice cep = new CarlysEventPrice();
+    public static void main(String[] args) {
+        // Scanner input object
+        Scanner input = new Scanner(System.in);
+        // CarlysEventPrice object
+        CarlysEventPrice cep = new CarlysEventPrice();
 
-    // Request number of attending guests
-    System.out.println("How many guests are attending this event?: ");
-    int guests = input.nextInt();
-    // Calculate Total price of event
-    // Display motto + border
-    // Display number of guests
-    // Display price per guest
-    // Display total price
-    // Display if large event aka 50+ guests(True or False)
+        // Request number of attending guests
+        System.out.println("How many guests are attending this event?: ");
+        int guests = input.nextInt();
+        // Calculate Total price of event
+        int prcPerGuest = 35;
+        int priceOfEvent = cep.totalPrice(prcPerGuest, guests);
+        // Display motto + border
+        // Display number of guests
+        // Display price per guest
+        // Display total price
+        // Display if large event aka 50+ guests(True or False)
 
-    input.close();
+        input.close();
+    }
+
+    public int totalPrice(int prcPerGuest, int guests) {
+        int total = prcPerGuest * guests;
+        return total;
+    }
 }
