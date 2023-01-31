@@ -13,7 +13,9 @@ public class Exercise3 {
     // Main
     public static void main(String[] args) throws Exception {
         // Scanner input
+        Scanner input = new Scanner(System.in);
         // Exercise3 object
+        Exercise3 ex3 = new Exercise3();
 
         // Collect Integer 1
         // Collect Integer 2
