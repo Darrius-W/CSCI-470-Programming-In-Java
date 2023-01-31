@@ -28,8 +28,10 @@ public class Exercise4 {
         int num3 = input.nextInt();
 
         // Print sum
-        System.out.printf("\nThe sum is: %d", ex4.getSum(num1, num2, num3));
+        int sum = ex4.getSum(num1, num2, num3);
+        System.out.printf("\nThe sum is: %d", sum);
         // Print average
+        System.out.printf("The average is: %d", ex4.getAvg(sum));
         // Print smallest
         // print largest
 
@@ -41,7 +43,12 @@ public class Exercise4 {
         int result = num1 + num2 + num3;
         return result;
     }
+
     // Average method
+    public int getAvg(int sum) {
+        int result = sum / 3;
+        return result;
+    }
     // Smallest integer method
     // Largest integer method
 }
