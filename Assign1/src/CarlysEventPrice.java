@@ -26,10 +26,11 @@ public class CarlysEventPrice {
         int priceOfEvent = cep.totalPrice(prcPerGuest, guests);
 
         // Display motto + border
-        System.out.println("\n-----------------------------------------------\n");
-        System.out.printf("| Carly’s makes the food that makes it a party. |\n");
+        System.out.println("\n-----------------------------------------------");
+        System.out.println("\n| Carly’s makes the food that makes it a party. |");
         System.out.println("\n-----------------------------------------------\n");
         // Display number of guests
+        System.out.printf("Attending guests: %d", guests);
         // Display price per guest
         // Display total price
         // Display if large event aka 50+ guests(True or False)
