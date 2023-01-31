@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Exercise3 {
     // Main
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         // Scanner input
         Scanner input = new Scanner(System.in);
         // Exercise3 object
