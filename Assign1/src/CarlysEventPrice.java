@@ -32,6 +32,7 @@ public class CarlysEventPrice {
         // Display number of guests
         System.out.printf("Attending guests: %d", guests);
         // Display price per guest
+        System.out.printf("Price per guest: $%d", prcPerGuest);
         // Display total price
         // Display if large event aka 50+ guests(True or False)
 
