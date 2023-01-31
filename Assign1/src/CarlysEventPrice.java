@@ -13,12 +13,19 @@ import java.util.Scanner;
 
 public class CarlysEventPrice {
     // Scanner input object
-    // Exercise5 object
+    Scanner input = new Scanner(System.in);
+    // CarlysEventPrice object
+    CarlysEventPrice cep = new CarlysEventPrice();
+
     // Request number of attending guests
+    System.out.println("How many guests are attending this event?: ");
+    int guests = input.nextInt();
     // Calculate Total price of event
     // Display motto + border
     // Display number of guests
     // Display price per guest
     // Display total price
     // Display if large event aka 50+ guests(True or False)
+
+    input.close();
 }
