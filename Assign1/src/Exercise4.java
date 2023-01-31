@@ -21,6 +21,9 @@ public class Exercise4 {
         int num2 = input.nextInt();
 
         // 3rd input integer
+        System.out.println("Enter 3rd integer: ");
+        int num3 = input.nextInt();
+
         // Print sum
         // Print average
         // Print smallest
