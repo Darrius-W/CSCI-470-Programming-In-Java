@@ -18,6 +18,8 @@ public class Exercise3 {
         Exercise3 ex3 = new Exercise3();
 
         // Collect Integer 1
+        System.out.println("Enter 1st integer: ");
+        int num1 = input.nextInt();
         // Collect Integer 2
 
         // Print Sum
