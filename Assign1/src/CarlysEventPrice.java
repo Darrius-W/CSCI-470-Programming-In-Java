@@ -24,7 +24,11 @@ public class CarlysEventPrice {
         // Calculate Total price of event
         int prcPerGuest = 35;
         int priceOfEvent = cep.totalPrice(prcPerGuest, guests);
+
         // Display motto + border
+        System.out.println("\n-----------------------------------------------\n");
+        System.out.printf("| Carly’s makes the food that makes it a party. |\n");
+        System.out.println("\n-----------------------------------------------\n");
         // Display number of guests
         // Display price per guest
         // Display total price
