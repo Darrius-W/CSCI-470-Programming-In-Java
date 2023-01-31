@@ -17,6 +17,9 @@ public class Exercise4 {
         int num1 = input.nextInt();
 
         // 2nd input integer
+        System.out.println("Enter 2nd integer: ");
+        int num2 = input.nextInt();
+
         // 3rd input integer
         // Print sum
         // Print average
