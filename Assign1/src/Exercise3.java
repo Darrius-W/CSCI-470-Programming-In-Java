@@ -26,12 +26,19 @@ public class Exercise3 {
         int num2 = input.nextInt();
 
         // Print Sum
+        System.out.printf("The sum is: %d", ex3.getSum(num1, num2));
         // Print Product
         // Print Difference
         // Print Quotient
+
+        input.close();
     }
 
     // Sum method
+    public int getSum(int num1, int num2) {
+        int sum = num1 + num2;
+        return sum;
+    }
     // Product method
     // Difference method
     // Quotient method
