@@ -20,7 +20,10 @@ public class Exercise3 {
         // Collect Integer 1
         System.out.println("Enter 1st integer: ");
         int num1 = input.nextInt();
+
         // Collect Integer 2
+        System.out.println("Enter 2nd integer: ");
+        int num2 = input.nextInt();
 
         // Print Sum
         // Print Product
