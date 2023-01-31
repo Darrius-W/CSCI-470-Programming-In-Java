@@ -30,8 +30,9 @@ public class Exercise3 {
         // Print Product
         System.out.printf("\nThe product is: %d", ex3.getProduct(num1, num2));
         // Print Difference
-        System.out.printf("\nThe sum is: %d", ex3.getDiff(num1, num2));
+        System.out.printf("\nThe difference is: %d", ex3.getDiff(num1, num2));
         // Print Quotient
+        System.out.printf("\nThe quotient is: %d", ex3.getQuotient(num1, num2));
 
         input.close();
     }
@@ -53,5 +54,10 @@ public class Exercise3 {
         int result = num1 - num2;
         return result;
     }
+
     // Quotient method
+    public int getQuotient(int num1, int num2) {
+        int result = num1 / num2;
+        return result;
+    }
 }
