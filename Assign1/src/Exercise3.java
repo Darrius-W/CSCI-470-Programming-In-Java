@@ -26,8 +26,9 @@ public class Exercise3 {
         int num2 = input.nextInt();
 
         // Print Sum
-        System.out.printf("The sum is: %d", ex3.getSum(num1, num2));
+        System.out.printf("\nThe sum is: %d", ex3.getSum(num1, num2));
         // Print Product
+        System.out.printf("\nThe product is: %d", ex3.getProduct(num1, num2));
         // Print Difference
         // Print Quotient
 
@@ -39,7 +40,12 @@ public class Exercise3 {
         int sum = num1 + num2;
         return sum;
     }
+
     // Product method
+    public int getProduct(int num1, int num2) {
+        int result = num1 * num2;
+        return result;
+    }
     // Difference method
     // Quotient method
 }
