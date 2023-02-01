@@ -26,21 +26,23 @@ public class CarlysEventPrice {
         int priceOfEvent = cep.totalPrice(prcPerGuest, guests);
 
         // Display motto + border
-        System.out.println("\n-----------------------------------------------");
-        System.out.println("\n| Carly’s makes the food that makes it a party. |");
-        System.out.println("\n-----------------------------------------------\n");
+        System.out.println("\n|-----------------------------------------------|");
+        System.out.println("|\t\t\t\t\t\t|");
+        System.out.println("| Carly's makes the food that makes it a party. |");
+        System.out.println("|\t\t\t\t\t\t|");
+        System.out.println("|-----------------------------------------------|");
         // Display number of guests
-        System.out.printf("Attending guests: %d", guests);
+        System.out.printf("\nAttending guests: %d", guests);
         // Display price per guest
-        System.out.printf("Price per guest: $%d", prcPerGuest);
+        System.out.printf("\nPrice per guest: $%d", prcPerGuest);
         // Display total price
-        System.out.printf("Total price of event: $%d", priceOfEvent);
+        System.out.printf("\nTotal price of event: $%d", priceOfEvent);
         // Display if large event aka 50+ guests(True or False)
         boolean isLargeEvent = false;
         if (guests >= 50) {
             isLargeEvent = true;
         }
-        System.out.printf("Large event: %b", isLargeEvent);
+        System.out.printf("\nLarge event: %b\n", isLargeEvent);
 
         input.close();
     }
