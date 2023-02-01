@@ -42,7 +42,7 @@ public class CarlysEventPrice {
         if (guests >= 50) {
             isLargeEvent = true;
         }
-        System.out.printf("\nLarge event: %b\n", isLargeEvent);
+        System.out.printf("\nLarge event: %b", isLargeEvent);
 
         input.close();
     }
