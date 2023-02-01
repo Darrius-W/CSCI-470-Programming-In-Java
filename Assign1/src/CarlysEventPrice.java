@@ -36,6 +36,11 @@ public class CarlysEventPrice {
         // Display total price
         System.out.printf("Total price of event: $%d", priceOfEvent);
         // Display if large event aka 50+ guests(True or False)
+        boolean isLargeEvent = false;
+        if (guests >= 50) {
+            isLargeEvent = true;
+        }
+        System.out.printf("Large event: %b", isLargeEvent);
 
         input.close();
     }
