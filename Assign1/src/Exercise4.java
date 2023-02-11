@@ -12,22 +12,26 @@ import java.util.Scanner;
 
 public class Exercise4 {
     public static void main(String[] args) {
+
+        // Variables
+        int num1, num2, num3 = 0;
+
         // Scanner input
         Scanner input = new Scanner(System.in);
         // Exercise 4 Object
         Exercise4 ex4 = new Exercise4();
 
         // 1st input integer
-        System.out.println("Enter 1st integer: ");
-        int num1 = input.nextInt();
+        System.out.print("Enter 1st integer: ");
+        num1 = input.nextInt();
 
         // 2nd input integer
-        System.out.println("Enter 2nd integer: ");
-        int num2 = input.nextInt();
+        System.out.print("Enter 2nd integer: ");
+        num2 = input.nextInt();
 
         // 3rd input integer
-        System.out.println("Enter 3rd integer: ");
-        int num3 = input.nextInt();
+        System.out.print("Enter 3rd integer: ");
+        num3 = input.nextInt();
 
         // Print sum
         int sum = ex4.getSum(num1, num2, num3);

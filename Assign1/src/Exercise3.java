@@ -12,18 +12,21 @@ import java.util.Scanner;
 public class Exercise3 {
     // Main
     public static void main(String[] args) {
+        // Variables
+        int num1, num2 = 0;
+
         // Scanner input
         Scanner input = new Scanner(System.in);
         // Exercise3 object
         Exercise3 ex3 = new Exercise3();
 
         // Collect Integer 1
-        System.out.println("Enter 1st integer: ");
-        int num1 = input.nextInt();
+        System.out.print("Enter 1st integer: ");
+        num1 = input.nextInt();
 
         // Collect Integer 2
-        System.out.println("Enter 2nd integer: ");
-        int num2 = input.nextInt();
+        System.out.print("Enter 2nd integer: ");
+        num2 = input.nextInt();
 
         // Print Sum
         System.out.printf("\nThe sum is: %d", ex3.getSum(num1, num2));
