@@ -1,13 +1,9 @@
-
 /*
- * Write an application that inputs three integers from the user and displays the sum,
- * average, product, smallest and largest of the numbers. Use the techniques shown in
- * Comparison.java [Note: The calculation of the average in this exercise should result
- * in an integer representation of the average. So, if the sum of the values is 7,
- * the average should be 2, not 2.3333....]
- * 
- *          ?Should values for average be rounded up?
- */
+* Assignment 1 - Exercise4.java
+* Darrius White
+* CSCI 470
+*/
+
 import java.util.Scanner;
 
 public class Exercise4 {

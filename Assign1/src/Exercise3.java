@@ -1,12 +1,9 @@
-
 /*
- * Prompt:
- * -----------------------------------------------------------------------------
- * Write an application that asks the user to enter two integers,
- * obtains them from the user and prints their sum, product,
- * difference and quotient (division). Use the techniques shown in Addition.java
- * (i.e. Scanner, nextInt and printf)
- */
+* Assignment 1 - Exercise3.java
+* Darrius White
+* CSCI 470
+*/
+
 import java.util.Scanner;
 
 public class Exercise3 {
