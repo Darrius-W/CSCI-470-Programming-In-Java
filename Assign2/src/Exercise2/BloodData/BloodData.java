@@ -2,7 +2,6 @@ package BloodData;
 
 public class BloodData {
     public static void main(String[] args) throws Exception {
-        // Fields holding a blood type (O, A, B, AB) and an Rh factor (- or +)
     }
 
     private String bloodT;

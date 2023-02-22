@@ -20,7 +20,6 @@ public class ShadyRestRoom {
         option = input.nextInt();
 
         // Switch cases for user option
-        // Echo input, price, and bed
         switch (option) {
             case 1:
                 str = "a Queen bed";
@@ -39,11 +38,12 @@ public class ShadyRestRoom {
 
             default:
                 price = 0;
-                System.out.printf("\nERROR: Invalid Input, $%d.", price);
+                System.out.printf("\nERROR: Invalid Input: $%d.", price);
                 System.exit(-1);
 
         }
-        System.out.printf("\nYou entered %d, $%d for %s.", option, price, str);
+        // Echo input, price, and bed
+        System.out.printf("\nYou entered %d: $%d for %s.", option, price, str);
 
         input.close();
     }

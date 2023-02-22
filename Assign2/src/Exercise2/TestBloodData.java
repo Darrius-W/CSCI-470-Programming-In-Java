@@ -6,20 +6,16 @@ public class TestBloodData {
         BloodData bData2 = new BloodData("B", '-');
 
         // Get default constructor values
-        System.out.println(bData.getBloodType());
-        System.out.println(bData.getRhFactor());
+        System.out.printf("%s%c\n", bData.getBloodType(), bData.getRhFactor());
 
         // Set new values
         bData.setBloodType("AB");
         bData.setRhFactor('-');
 
         // Get new values
-        System.out.println(bData.getBloodType());
-        System.out.println(bData.getRhFactor());
+        System.out.printf("%s%c\n", bData.getBloodType(), bData.getRhFactor());
 
         // Get values using overloaded constructor
-        System.out.println(bData2.getBloodType());
-        System.out.println(bData2.getRhFactor());
-
+        System.out.printf("%s%c\n", bData2.getBloodType(), bData2.getRhFactor());
     }
 }

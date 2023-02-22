@@ -7,11 +7,11 @@ public class Billing {
         Billing bill = new Billing();
 
         // test computeBill one parameter
-        System.out.printf("%.2f\n", bill.computeBill(bookPrc));
+        System.out.printf("Book Price: $%.2f\n", bill.computeBill(bookPrc));
         // test computeBill two parameter
-        System.out.printf("%.2f\n", bill.computeBill(bookPrc, quantity));
+        System.out.printf("Order amount: $%.2f\n", bill.computeBill(bookPrc, quantity));
         // test computeBill three parameter
-        System.out.printf("%.2f\n", bill.computeBill(bookPrc, quantity, coupon));
+        System.out.printf("Total: $%.2f\n", bill.computeBill(bookPrc, quantity, coupon));
     }
 
     // computeBill single parameter: price of one photo book ordered
@@ -32,12 +32,11 @@ public class Billing {
         return result;
     }
 
-    // computeBill three parameters: price of photo book, quantity ordered, coupon
-    // value
+    // computeBill three parameters: book price, quantity ordered, coupon value
     public double computeBill(double bookPrc, int quantity, double coupon) {
         // multiply quantity and price of photo book
         double result = bookPrc * quantity;
-        // reduce result by the coupon value
+        // reduce result by the coupon value: Percentage
         result = result - (result * coupon);
         // add 8% tax
         result = result + (result * 0.08);
