@@ -5,16 +5,16 @@ public class AcmePay {
 
         Scanner input = new Scanner(System.in);
 
-        int hours = 0,
-                hoursOT = 0,
-                shift = 0;
-        double payRate = 0,
-                payReg = 0,
-                payOT = 0,
-                payTot = 0,
-                rReduction = 0,
-                reductionTot = 0,
-                net = 0;
+        int hours = 0;
+        int hoursOT = 0;
+        int shift = 0;
+        double payRate = 0;
+        double payReg = 0;
+        double payOT = 0;
+        double payTot = 0;
+        double rReduction = 0;
+        double reductionTot = 0;
+        double net = 0;
         String retireChar = "";
 
         // INPUT:

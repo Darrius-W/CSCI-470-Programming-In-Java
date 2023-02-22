@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class ShadyRestRoom {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
-        int option, price = 0;
+        int option;
+        int price = 0;
         String str = "";
 
         // Display menu

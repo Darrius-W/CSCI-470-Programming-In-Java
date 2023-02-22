@@ -1,7 +1,7 @@
 public class Billing {
     public static void main(String[] args) throws Exception {
-        double bookPrc = 20.98,
-                coupon = 0.1;
+        double bookPrc = 20.98;
+        double coupon = 0.1;
         int quantity = 15;
 
         Billing bill = new Billing();

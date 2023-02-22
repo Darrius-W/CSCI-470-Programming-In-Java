@@ -4,7 +4,10 @@ public class CellPhoneService {
     public static void main(String[] args) throws Exception {
 
         Scanner input = new Scanner(System.in);
-        int mMin, mText, mGB, price = 0;
+        int mMin;
+        int mText;
+        int mGB;
+        int price = 0;
         char plan = '\0';
 
         // Ask for maximum monthly values for:
