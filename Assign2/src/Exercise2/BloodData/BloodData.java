@@ -1,3 +1,9 @@
+/*
+* Assignment 2 - BloodData.java
+* Darrius White
+* CSCI 470
+*/
+
 package BloodData;
 
 public class BloodData {

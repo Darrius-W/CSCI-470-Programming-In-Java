@@ -1,3 +1,9 @@
+/*
+* Assignment 2 - CellPhoneService.java
+* Darrius White
+* CSCI 470
+*/
+
 import java.util.Scanner;
 
 public class CellPhoneService {

@@ -1,3 +1,9 @@
+/*
+* Assignment 2 - TestBloodData.java
+* Darrius White
+* CSCI 470
+*/
+
 import BloodData.BloodData;
 
 public class TestBloodData {
