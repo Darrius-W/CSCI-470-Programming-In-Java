@@ -61,8 +61,10 @@ public class BirthdayReminder {
                 break;
             }
 
-            if (/*Binary Search*/) { // Friend Exists
-                System.out.printf("%nFriend: %d%nBirthday:%d",
+            friendIndex = searchFriend(friends, searchFriend, count);// Check if friend exists
+
+            if (friendIndex != -1) { // Friend Exists
+                System.out.printf("Friend: %s%nBirthday:%s%n",
                         friends[friendIndex][0], friends[friendIndex][1]);
             }
 
@@ -73,5 +75,14 @@ public class BirthdayReminder {
         }
 
         input.close();
+    }
+
+    static int searchFriend(String friendsArr[][], String friend, int count) {
+        for (int i = 0; i < count; i++) {
+            if (friendsArr[i][0].equals(friend)) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
