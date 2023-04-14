@@ -55,13 +55,13 @@ public class MorgansBonuses {
         weeksWorked = input.nextInt();
 
         // Prompt user for number of positive reviews
-        System.out.print("Enter number of reviews: ");
+        System.out.print("Enter number of positive reviews: ");
         reviews = input.nextInt();
 
-        // Display appropriate bonus
+        // Display user input
         System.out.printf("\nWeeks worked: %d%nReviews: %d%n", weeksWorked, reviews);
 
-        // Check if values surpassed boundaries
+        // Check if values surpass boundaries
         if (weeksWorked > 6) {
             weeksWorked = 6;
         }
@@ -69,6 +69,7 @@ public class MorgansBonuses {
             reviews = 4;
         }
 
+        // Display appropriate bonus
         System.out.printf("Bonus: %.2f", bonuses[weeksWorked][reviews]);
 
         input.close();

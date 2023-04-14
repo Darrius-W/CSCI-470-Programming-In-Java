@@ -10,7 +10,7 @@ public class CarCareChoice2 {
 
         // Display menu for Cody's Car Care Shop
         System.out.println("Cody's Care Care Shop");
-        System.out.println("---------------------");
+        System.out.println("-----------------------------");
         System.out.println("What can we do for you today?");
         System.out.println("- Oil Change");
         System.out.println("- Tire Rotation");

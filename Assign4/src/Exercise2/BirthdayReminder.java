@@ -34,11 +34,13 @@ public class BirthdayReminder {
             // Inc count
             count++;
         }
+
         // Display how many names were entered followed by all the names
         System.out.printf("%nCurrent Friend Count: %d%nFriend List%n-----------%n", count);
         for (int i = 0; i < count; i++) {
             System.out.println((i + 1) + ". " + friends[i][0]);
         }
+
         // In Loop, ask user to type one of the names and display corresponding Bday
         // (Until 'ZZZ')
         while (true) {

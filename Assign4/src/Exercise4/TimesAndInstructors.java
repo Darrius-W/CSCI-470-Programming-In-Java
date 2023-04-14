@@ -4,7 +4,8 @@ public class TimesAndInstructors {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
         String course;
-        String[][] courses = { { "CIS101", "Mon 9 am", "Farrell" },
+        String[][] courses = {
+                { "CIS101", "Mon 9 am", "Farrell" },
                 { "CIS210", "Mon 11 am", "Patel" },
                 { "MKT100", "Tues 8:30 am", "Wong" },
                 { "ACC150", "Tues 6 pm", "Deitrich" },
