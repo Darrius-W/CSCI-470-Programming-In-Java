@@ -13,7 +13,7 @@ public class Candle {
         this.color = color;
     }
 
-    // Get method for heig ht
+    // Get method for height
     public int getHeight() {
         return this.height;
     }
